@@ -4,6 +4,12 @@ AI-powered tool that converts natural language descriptions into Google Apps Scr
 
 ![Demo Screenshot](https://via.placeholder.com/800x400/1E40AF/FFFFFF?text=Natural+Language+to+GAS+Generator)
 
+## 🚀 Quick Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/groundcobra009/nl-to-gas-converter-v2)
+
+**Live Demo:** Coming soon...
+
 ## ✨ Features
 
 - **Natural Language to GAS Code Conversion**: Simply describe what you want in plain language
@@ -34,8 +40,8 @@ AI-powered tool that converts natural language descriptions into Google Apps Scr
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/groundcobra009/natural-language-to-gas.git
-cd natural-language-to-gas
+git clone https://github.com/groundcobra009/nl-to-gas-converter-v2.git
+cd nl-to-gas-converter-v2
 ```
 
 2. Install dependencies:
@@ -111,7 +117,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 - GitHub: [@groundcobra009](https://github.com/groundcobra009)
-- Repository: [natural-language-to-gas](https://github.com/groundcobra009/natural-language-to-gas)
+- Repository: [nl-to-gas-converter-v2](https://github.com/groundcobra009/nl-to-gas-converter-v2)
 
 ---
 
