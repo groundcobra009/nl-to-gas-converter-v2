@@ -83,7 +83,7 @@ const App: React.FC = () => {
   const [contextHistory, setContextHistory] = useState<ContextHistory[]>([]);
   const [errorFixData, setErrorFixData] = useState<ErrorFixData>({ errorDescription: '' });
   const [isFixingError, setIsFixingError] = useState<boolean>(false);
-  const [currentIterationId, setCurrentIterationId] = useState<string>('');
+  // const [currentIterationId] = useState<string>('');
 
   // APIキー管理用の新しい状態
   const [apiKey, setApiKey] = useState<string>('');
@@ -171,7 +171,7 @@ const App: React.FC = () => {
       errorImage
     };
     setContextHistory(prev => [...prev, newEntry]);
-    setCurrentIterationId(newEntry.id);
+    // setCurrentIterationId(newEntry.id);
   }, []);
 
   const handleErrorFixMode = useCallback(() => {

@@ -115,7 +115,7 @@ If configuration (API keys, webhook URLs) is needed:
 };
 
 // エラー修正用のシステム指示を生成
-const getErrorFixSystemInstruction = (scriptType: ScriptType): string => {
+export const getErrorFixSystemInstruction = (scriptType: ScriptType): string => {
   const baseErrorFixInstruction = `You are an AI assistant that specializes in debugging and fixing Google Apps Script (GAS) code.
 You will be provided with:
 1. The context of previous script generation attempts
