@@ -1,0 +1,6 @@
+{
+  "name": "NL to GAS Converter",
+  "description": "自然言語の記述をGemini APIを使用してGoogle Apps Script（GAS）コードに変換するウェブアプリケーションです。",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
